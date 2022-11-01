@@ -14,14 +14,9 @@ namespace CodingChallenge.Data.Classes.Formas
         {
             Radio = radio;
         }
-        public double CalcularArea()
-        {
-            return Math.PI * (Radio * Radio);
-        }
 
-        public double CalcularPerimetro()
-        {
-            return Math.PI * Radio * 2;
-        }
+        public double CalcularArea() => Math.PI * (Radio * Radio);
+        public double CalcularPerimetro() => Math.PI * Radio * 2;
+        
     }
 }

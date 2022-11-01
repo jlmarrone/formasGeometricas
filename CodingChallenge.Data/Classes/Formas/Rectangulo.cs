@@ -21,14 +21,8 @@ namespace CodingChallenge.Data.Classes.Formas
             Lado2 = lado2;
         }
 
-        public double CalcularArea()
-        {
-            return Lado * Lado2;
-        }
+        public double CalcularArea() => Lado * Lado2;
 
-        public double CalcularPerimetro()
-        {
-            return Lado * 2 + Lado2 * 2;
-        }
+        public double CalcularPerimetro() => (Lado * 2) + (Lado2 * 2);
     }
 }
